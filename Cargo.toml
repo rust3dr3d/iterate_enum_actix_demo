@@ -1,0 +1,9 @@
+[package]
+name = "iter_enum"
+version = "0.1.0"
+authors = ["RustedRed"]
+edition = "2018"
+
+[dependencies]
+actix-web = "3.3.2"
+strum = { version = "0.21", features = ["derive"] }
